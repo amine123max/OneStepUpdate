@@ -1,4 +1,3 @@
-# OneStepUpdate
 ![OneStepUpdate](onestepupdate.png)
 
 A desktop application for pushing local code to GitHub and creating releases with one click.
@@ -119,5 +118,6 @@ If you encounter any issues:
 2. Ensure Git is installed on your system
 3. Verify your GitHub repository permissions
 4. Try logging out and logging in again
+
 
 
