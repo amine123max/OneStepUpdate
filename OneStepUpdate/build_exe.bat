@@ -54,7 +54,7 @@ echo [INFO] Building Executable...
 :: --onefile: Single .exe
 :: --icon: Window/Taskbar icon
 :: --add-data: Include icon file in internal resources (critical for runtime icon)
-pyinstaller --noconsole --onefile --name "OneStepUpdate" --icon "OneStepUpdate.ico" --add-data "OneStepUpdate.ico;." --add-data "onestepupdate.png;." --collect-all customtkinter --collect-all pystray OneStepUpdate.py
+pyinstaller --noconsole --onefile --name "OneStepUpdate" --icon "OneStepUpdate.ico" --add-data "OneStepUpdate.ico;." --add-data "onestepupdate.png;." --collect-all customtkinter OneStepUpdate.py
 
 echo.
 echo [SUCCESS] Build complete.

@@ -2,4 +2,3 @@ customtkinter
 Pillow
 pyinstaller
 requests
-pystray

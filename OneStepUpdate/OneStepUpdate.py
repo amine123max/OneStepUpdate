@@ -131,9 +131,9 @@ class MainView(ctk.CTkFrame):
         self.file_browse_button = ctk.CTkButton(form_frame, text="选择...", command=self.browse_files, width=60)
         self.file_browse_button.grid(row=2, column=2, padx=(0, 10), pady=10)
 
-        # 4. Commit Msg (Kept for UI consistency, used as fallback release title or note)
-        ctk.CTkLabel(form_frame, text="提交/分支:").grid(row=3, column=0, padx=10, pady=10, sticky="w")
-        self.commit_entry = ctk.CTkEntry(form_frame, placeholder_text="main (目标分支)")
+        # 4. Target Branch
+        ctk.CTkLabel(form_frame, text="目标分支:").grid(row=3, column=0, padx=10, pady=10, sticky="w")
+        self.commit_entry = ctk.CTkEntry(form_frame, placeholder_text="main")
         self.commit_entry.grid(row=3, column=1, columnspan=2, padx=10, pady=10, sticky="ew")
         self.commit_entry.insert(0, "main")
 
